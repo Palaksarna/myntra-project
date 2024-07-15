@@ -378,6 +378,28 @@ a.action_container:link {
     background-color: #f54e77;
     color: #ffffff;
 }
-
+.fixed-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure the button is on top of other elements */
+  }
+  
+  .fixed-button {
+    background-color: #f54e77; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s, transform 0.3s; /* Add a transition effect */
+  }
+  
+  .fixed-button:hover {
+    background-color: #c92389; /* Change the background color on hover */
+    transform: translateY(-2px); /* Slightly move the button up on hover */
+  }
+  
 
 
